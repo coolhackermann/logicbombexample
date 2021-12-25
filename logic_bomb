@@ -9,19 +9,19 @@ with open('test.txt', 'r') as f:
     with open('test.txt', 'w') as f2:
             if x == '0':
                 f2.write('1')
-                import ai.py
+                from files_used import ai.py
             elif x == '1':
                 f2.write('2')
-                import ai.py
+                from files_used import ai.py
             elif x == '2':
                 f2.write('3')
-                import ai.py
+                from files_used import ai.py
             elif x == '3':
                 f2.write('4')
-                import ai.py
+                from files_used import ai.py
             elif x == '4':
                 f2.write('0')
-                import turtletest.py
+                from files_used import turtletest.py
 
 with open('test.txt', 'r') as check:
     x = check.read()
