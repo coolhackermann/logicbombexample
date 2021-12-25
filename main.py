@@ -10,22 +10,23 @@ with open('test.txt', 'r') as f:
             if x == '0':
                 f2.write('1')
                 from files_used import pong
-                pongfun()
+                pong.pongfun()
             elif x == '1':
                 f2.write('2')
                 from files_used import pong
-                pongfun()
+                pong.pongfun()
             elif x == '2':
                 f2.write('3')
                 from files_used import pong
-                pongfun()
+                pong.pongfun()
             elif x == '3':
                 f2.write('4')
                 from files_used import pong
-                pongfun()
+                pong.pongfun()
             elif x == '4':
                 f2.write('0')
-                from files_used import turtletest.py
+                from files_used import turtletest
+                turtletest.turtletoss()
 
 with open('test.txt', 'r') as check:
     x = check.read()
